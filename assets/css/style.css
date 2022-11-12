@@ -3886,7 +3886,7 @@ app-home .filter-pro-block .pro-detail-btn {
 /* bishal classes start */
 .pd-inner-price {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	font-family: 'Gotham';
 }
 
@@ -3903,6 +3903,8 @@ app-home .filter-pro-block .pro-detail-btn {
 	font-weight: 300;
 	font-size: 26px;
 	margin-right: 8px;
+	display: inline-block;
+
 }
 
 .pd-inner-price span {
@@ -3911,6 +3913,7 @@ app-home .filter-pro-block .pro-detail-btn {
 	font-size: 26px;
 	font-weight: 600;
 	line-height: 40px;
+	display: inline-block;
 }
 
 /* bishal classes end */

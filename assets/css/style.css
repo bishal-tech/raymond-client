@@ -3847,7 +3847,7 @@ app-home .filter-pro-block .pro-detail-btn {
 	font-family: 'Poppins';
 }
 
-.right_pro_info_dtl .pro_price {
+/* .right_pro_info_dtl .pro_price {
 	font-size: 2vw;
 	line-height: 40px;
 	font-weight: 500;
@@ -3863,12 +3863,12 @@ app-home .filter-pro-block .pro-detail-btn {
 
 .right_pro_info_dtl .pro_price s {
 	display: block;
-	/* vertical-align: middle; */
+	/* vertical-align: middle;
 	color: #9aa5ad;
-	/* margin-left: 1px; */
+	/* margin-left: 1px; 
 	font-weight: 300;
 	font-size: 26px;
-	/* margin-top: -6px; */
+	/* margin-top: -6px; 
 }
 
 .right_pro_info_dtl .pro_price span {
@@ -3879,15 +3879,15 @@ app-home .filter-pro-block .pro-detail-btn {
 	line-height: 40px;
 	/* vertical-align: middle; */
 	/* margin-top: -20px; */
-	/* margin-left: 10px; */
-}
+	/* margin-left: 10px; 
+} */
 
 
 /* bishal classes start */
 .pd-inner-price {
 	display: flex;
 	align-items: center;
-	gap: 8px;
+	/* gap: 8px; */
 }
 
 .pd-inner-price h3 {
@@ -3896,12 +3896,15 @@ app-home .filter-pro-block .pro-detail-btn {
 	font-weight: 500;
 	color: #2a4153;
 	font-family: 'Gotham';
+	margin-right: 8px;
 }
 
 .pd-inner-price s {
 	color: #9aa5ad;
 	font-weight: 300;
 	font-size: 26px;
+	margin-right: 8px;
+
 }
 
 .pd-inner-price span {

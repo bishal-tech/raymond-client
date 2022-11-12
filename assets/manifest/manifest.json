@@ -1,0 +1,15 @@
+{
+  "name": "MyRaymond",
+  "short_name": "MyRaymond",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "orientation": "portrait",
+  "action": {},  
+  "icons": [{
+    "src": "../imgs/logo.jpg",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#FFFFFF",
+  "theme_color": "#fff"
+}

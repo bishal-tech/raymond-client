@@ -1,0 +1,471 @@
+
+    .whislistBtnPro {
+      width: 35px;
+      height: 35px;
+      background-color: #fff;
+      display: inline-block;
+      position: absolute;
+      right: 10px;
+      bottom: 20px;
+      border-radius: 50%;
+      padding: 5px 10px;
+      z-index: 3;
+      box-shadow: 0px 1px 5px #888888;
+    }
+    .sortPopup .overlay {
+        display: block;
+        position: fixed;
+        padding-top: calc(100px + env(safe-area-inset-top));
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.6);
+        transform: none;
+        padding-bottom: 30px;
+        
+      }
+      .radio-block.disabledRadio{
+        opacity: 0.4;
+        pointer-events: none;
+      }
+      .size_chart_share{
+        position: relative;
+      }
+      .available_piecesBtn{
+        pointer-events: none;
+      }
+      .webShare{
+        position: absolute;
+        right: 0;
+        top: 60px;
+        z-index: 0;
+        border: 1px solid #cdcdcd;
+        border-color: rgba(0,0,0,.2);
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 13%);
+        background-color: #fff;
+        padding: 10px;
+        opacity: 0;
+        transition: all 250ms linear 0s;
+    }  
+    .webShare.active{
+      opacity: 1;
+      z-index: 9;
+    }
+    .webShare img{
+      width: 30px;
+    }
+    .webShare ul li{
+      margin-bottom: 10px;
+    }
+    .webShare ul li:last-child{
+      margin-bottom: 0;
+    }
+    .check{
+        width: 100%;
+        max-width: 767px;
+        padding: 10px 0px 0px 30px;
+        background: #fdf6f4;
+        overflow: auto;
+        display: block;
+    }
+    .add_cart_btn_mb{
+      background: #2a4153;
+    }
+    .add_cart_btn_mb .add_cart_txt_mb{
+      color: white;
+    }
+    .middle-buttons-block-monogram {
+      display: none;
+      
+    }
+    .middle-buttons-block-monogram .btn-addMonogram {
+      height: 50px;
+      width: 40%;
+      border-radius: 8px;
+      background: #2a4153;
+      color: #fff;
+      font-weight: 400;
+      font-size: 18px;
+      border: none;
+      margin-right: 3%;
+      text-transform: uppercase;
+    }
+    #icon-pocket{
+      top: 42%;
+      left: 52%;
+    }
+    #icon-cuff-monogram{
+      top: 74%;
+      left: 64%;
+    }
+    #icon-sleeve-placket{
+      top: 57%;
+      left: 72%;
+    }
+    .customize-icon{
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      content: "";
+      display: block;
+      cursor: pointer;
+      z-index: 2;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      vertical-align: middle;
+      justify-content: center;
+      box-shadow: 0 2px 6px 0 rgb(0 0 0 / 30%);
+      background-color: #ea8d72;
+      border-radius: 50%;
+    }
+    .ripple {
+      margin: auto;
+      width: 25px;
+      height: 25px;
+      border-radius: 100px;
+      position: inherit;
+      z-index: -1;
+      opacity: 1;
+      border: 2px dashed #fff;
+      -webkit-animation-name: Rotate;
+      -webkit-animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      -moz-animation-name: Rotate;
+      -moz-animation-duration: 2s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: linear;
+      -ms-animation-name: Rotate;
+      -ms-animation-duration: 2s;
+      -ms-animation-iteration-count: infinite;
+      -ms-animation-timing-function: linear;
+    }
+    .monogram p{
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
+    .monogram_input,.monogram_color{
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+    .monogram_text{
+      font-size: 22px;
+        text-align: center;
+        padding: 14px 0;
+        max-width: 150px;
+        text-transform: uppercase;
+        border: 1px solid rgba(35, 31, 32, 0.1);
+    }
+    .thread_color span {
+      margin: 0 10px 0 0;
+      border: 1px solid transparent;
+      width: 52px;
+      height: 52px;
+      padding: 5px;
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+    }
+    .thread_color span.selected:before {
+      content: "✓";
+      background-color: #ed1b3b;
+      transform: scale(1);
+      z-index: 5;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      width: 20px;
+      height: 20px;
+      color: #fff;
+      text-align: center;
+      line-height: 21px;
+      transition-duration: .4s;
+      border-radius: 50%;
+    }
+    .thread_color span img {
+      border-radius: 50%;
+    }
+    .modal-dialog-centered-monogram {
+      margin-top: 125px;
+    }
+    .modal-header button.closeChange {
+      position: absolute;
+      top: -15px;
+      left: auto;
+      right: -15px;
+      background: rgb(255 255 255);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin: 0 auto;
+      color: #2a4153;
+      text-shadow: none;
+      font-weight: 400;
+      font-size: 42px;
+      box-shadow: 0px 5px 25px -5px #555;
+      opacity: 1;
+      padding: 0;
+      z-index: 2;
+    }
+    .filter-dialog .body-two {
+      padding: 40px 30px;
+    }
+    .chart_sub_percent {
+      color: #ea8d72;
+      font-size: 15px;
+      line-height: normal;
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: -14px;
+      margin-left: 5px;
+    }
+    .use-coupon{
+        font-size: 1vw;
+        font-weight: 400;
+        color: #2a4153;
+        display: block;
+        margin-top: 20px;
+        font-family: 'Poppins';
+    }
+    .use-coupon img{
+        width: 18%;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .use-coupon span{
+      font-family: 'Gotham';
+    }
+    @-webkit-keyframes Rotate {
+      from {
+        -webkit-transform: rotate(0deg);
+      }
+      to {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    @-moz-keyframes Rotate {
+      from {
+        -moz-transform: rotate(0deg);
+      }
+      to {
+        -moz-transform: rotate(360deg);
+      }
+    }
+    @-ms-keyframes Rotate {
+      from {
+        -ms-transform: rotate(0deg);
+      }
+      to {
+        -ms-transform: rotate(360deg);
+      }
+    }
+    .chart-p{
+      padding: 30px 0px;
+    }
+    .chart-height{
+      height: 374px;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    .scroller::-webkit-scrollbar-track
+    {
+       
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+    
+    .scroller::-webkit-scrollbar
+    {
+        width: 6px;
+        background-color: #F5F5F5;
+    }
+    
+    .scroller::-webkit-scrollbar-thumb
+    {
+        border-radius: 10px;
+       
+        background-image: -webkit-gradient(linear,
+                                           left bottom,
+                                           left top,
+                                           color-stop(0.44, rgb(111, 169, 214)),
+                                           color-stop(0.72, rgb(64, 91, 111)),
+                                           color-stop(0.86, rgb(42, 65, 83))),
+    }
+    .fathersday-discount {
+      color: #2a4153;
+      font-weight: 600;
+      position: absolute;
+      top: 20px;
+      left: 0;
+      
+      z-index: 99;
+      font-size: 0.6vw;
+      padding: 3px 4px;
+      
+    }
+    .fathersday-discount span{
+      display: block;
+      font-size: 0.7vw;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "Gotham";
+    }
+    .fathersday-discount:after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      left: 2px;
+      bottom: -2px;
+      
+      z-index: -1;
+    }
+    .fathersday-discount img{
+      width: 75%;
+    }
+    .sizeChartDel{
+      font-size: 1.4vw;
+    }
+    .btn-addbag.gotoBag img.img-mw{
+      margin-left: 5px;
+    }
+    .gotoBag{
+      margin-right: 5px;
+    }
+    .img-m{
+      margin-top: 2px;
+    }
+    .fathersday-discount img.combo_offer_img{
+      width: 28%;
+    }
+    @media only screen and (max-width:767px) {
+      .fathersday-discount img.combo_offer_img{
+        width: 32%;
+      }
+      .btn_areamb{
+        margin-bottom: -20px;
+      }
+      .size_chart_content_box {
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+      .size_chart_share_mb{
+        margin-bottom: -39px;
+      }
+      .sizeChartDel{
+        font-size: 15px;
+      }
+      .fathersday-discount img{
+            width: 40%;
+          }
+      .fathersday-discount {
+        font-size: 2vw;
+        top:  5px;
+      }
+      .fathersday-discount span{
+        font-size: 2vw;
+      }
+      .fathersday-discount span.t-heading{
+        font-size: 1.8vw;
+      }
+      .ftr_fixed_bar .ftr_add_cart_btn img.mb_img_reduce{
+        width: 13px;
+      }
+      .use-coupon img{
+        width: 25%;
+       
+    }
+      .use-coupon{
+        font-size: 3vw;
+        
+    }
+      img.add_ctr_h{
+        height: 18px;
+      }
+      .webShare{
+        top: 255px !important;
+    }
+      .wts-btn {
+        background: #2a4153;
+    }
+      .share{
+        top: auto;
+        bottom: 27px;
+        display: block !important;
+      }
+      .whislistBtnPro{
+        display: none;
+      }
+      .size_headding.margin{
+        margin-right: 2px;
+      }
+      .chart-height{
+        height: 40vh;
+      }
+      .chart-p{
+        padding: 30px 0px 0px;
+      }
+      .modal-header button.closeChange {
+        position: absolute;
+        top: -55px;
+        left: 0;
+        right: 0;
+        background: rgb(255 255 255);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 0 auto;
+        color: #2a4153;
+        text-shadow: none;
+        font-weight: 400;
+        font-size: 42px;
+        opacity: 1;
+        padding: 0;
+    }
+      .middle-buttons-block-monogram {
+        display: block;
+      }
+      .modal-dialog-centered-monogram {
+            margin-top: 495px;
+        }
+      .middle-buttons-block-monogram .btn-addMonogram {
+        height: 40px;
+        width: 30%;
+        text-transform: none;
+        font-size: 3vw;
+        margin-left: 10px;
+        color: #2a4153;
+        background: #eff0f2;
+      }
+      #icon-pocket{
+        top: 42%;
+        left: 52%;
+      }
+      #icon-cuff-monogram{
+        top: 75%;
+        left: 73%;
+      }
+      #icon-sleeve-placket{
+        top: 56%;
+        left: 84%;
+      }
+      .fixed-width{
+        width: 35%;
+      }
+      .fixed-width-popup{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .ftr_add_cart_btn_popup {
+        padding: 5px 0%;
+    }
+    }
+    

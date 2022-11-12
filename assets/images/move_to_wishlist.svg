@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57.2" height="57.2" viewBox="0 0 57.2 57.2">
+  <g id="Group_1693" data-name="Group 1693" transform="translate(-965 -616.8)">
+    <g id="Group_1692" data-name="Group 1692" transform="translate(965 616.8)">
+      <g id="Group_720" data-name="Group 720" transform="translate(0 0)">
+        <path id="Path_295" data-name="Path 295" d="M28.6,0A28.6,28.6,0,1,1,0,28.6,28.6,28.6,0,0,1,28.6,0Z" transform="translate(0 0)" fill="#fff" opacity="0.36"/>
+      </g>
+      <path id="noun_Heart_2102871_1_" data-name="noun_Heart_2102871 (1)" d="M27.223,6a8.415,8.415,0,0,0-6.232,2.823A8.415,8.415,0,0,0,14.76,6C9.93,6,6,10.266,6,15.509c0,7.654,13.589,19.656,14.167,20.164a1.25,1.25,0,0,0,1.631.014c.579-.491,14.183-12.11,14.183-20.178C35.982,10.266,32.053,6,27.223,6Z" transform="translate(7.726 9.087)" fill="#ea8d72"/>
+    </g>
+    <circle id="Ellipse_271" data-name="Ellipse 271" cx="8.5" cy="8.5" r="8.5" transform="translate(996 642)" fill="#2a4153"/>
+    <text id="_" data-name="+" transform="translate(1005 656)" fill="#fff" font-size="15" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-5.055" y="0">+</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280.057" height="59.925" viewBox="0 0 280.057 59.925">
+  <g id="Group_2053" data-name="Group 2053" transform="translate(-812 -1750.5)">
+    <path id="Path_621" data-name="Path 621" d="M8,0H269.611a8,8,0,0,1,8,8V49.479a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" transform="translate(813.223 1751.723)" fill="#ea8d72" opacity="0.59"/>
+    <text id="MRDIWALI" transform="translate(938.007 1792.962)" fill="#2a4153" font-size="36" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.031em"><tspan x="-94.122" y="0">MRDIWALI</tspan></text>
+    <g id="Rectangle_1888" data-name="Rectangle 1888" transform="translate(812 1750.5)" fill="none" stroke="#2a4153" stroke-width="1" stroke-dasharray="2">
+      <rect width="280.057" height="59.925" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="279.057" height="58.925" rx="7.5" fill="none"/>
+    </g>
+    <g id="copy-svgrepo-com" transform="translate(1060.21 1766.742)">
+      <path id="Path_617" data-name="Path 617" d="M65.9,0H51V20.61h4.346V4.966H65.9Z" transform="translate(-51)" fill="#2a4153"/>
+      <path id="Path_618" data-name="Path 618" d="M306,125v4.346h4.346Z" transform="translate(-290.17 -117.24)" fill="#2a4153"/>
+      <path id="Path_619" data-name="Path 619" d="M158.76,117.139V110H151v20.61h14.9V117.139Z" transform="translate(-144.792 -103.171)" fill="#2a4153"/>
+    </g>
+  </g>
+</svg>

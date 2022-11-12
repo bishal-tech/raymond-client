@@ -3878,8 +3878,8 @@ app-home .filter-pro-block .pro-detail-btn {
 	font-size: 26px;
 	line-height: 40px;
 	/* vertical-align: middle; */
-	/* margin-top: -20px; */
-	/* margin-left: 10px; 
+/* margin-top: -20px; */
+/* margin-left: 10px; 
 } */
 
 
@@ -3887,7 +3887,7 @@ app-home .filter-pro-block .pro-detail-btn {
 .pd-inner-price {
 	display: flex;
 	align-items: center;
-	/* gap: 8px; */
+	font-family: 'Gotham';
 }
 
 .pd-inner-price h3 {
@@ -3895,7 +3895,6 @@ app-home .filter-pro-block .pro-detail-btn {
 	line-height: 40px;
 	font-weight: 500;
 	color: #2a4153;
-	font-family: 'Gotham';
 	margin-right: 8px;
 }
 
@@ -3904,17 +3903,14 @@ app-home .filter-pro-block .pro-detail-btn {
 	font-weight: 300;
 	font-size: 26px;
 	margin-right: 8px;
-
 }
 
 .pd-inner-price span {
 	color: #ea8d72;
 	line-height: normal;
-	/* display: block; */
 	font-size: 26px;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 40px;
-
 }
 
 /* bishal classes end */

@@ -1,0 +1,30 @@
+#mydiv1,
+#mydiv2,
+#mydiv3 {
+    position: absolute;
+    z-index: 9;
+    cursor: pointer;
+}
+
+#Initials-box {
+    display: none;
+}
+
+.Initials-1 {
+    top: 254px;
+    left: 39px;
+}
+
+.Initials-2 {
+    top: 192px;
+    left: 193px;
+}
+
+.Initials-3 {
+    top: 355px;
+    left: 87px;
+}
+
+.middle-buttons-block .btn-buynow:hover {
+    background-color: #35546b;
+}

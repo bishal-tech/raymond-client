@@ -3435,4 +3435,9 @@ ul.order-status-list li{display: inline-block;margin-right: 27px;text-align: cen
 	.product-coupon__box-flex h4{
 		font-size: 1.3vw;
 	}
+
+	.listing-content-price .pd-inner-price span{
+		margin-top: 13px;
+	}
+
 }

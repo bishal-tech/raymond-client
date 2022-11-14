@@ -28,3 +28,11 @@
 .middle-buttons-block .btn-buynow:hover {
     background-color: #35546b;
 }
+
+#filterPopup .overlay{
+    background-color: #000;
+    opacity: 0.5;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}

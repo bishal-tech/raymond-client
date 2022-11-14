@@ -3091,7 +3091,7 @@ ul.order-status-list li{display: inline-block;margin-right: 27px;text-align: cen
 	#filterPopup,
 	.proDetail_modal,
 	.backdrop_hidden .modal-backdrop {
-		display: none !important;
+		/* display: none !important; */
 	}
 }
 @media only screen and (min-device-width : 576px) and (max-device-width : 767px) {

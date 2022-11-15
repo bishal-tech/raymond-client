@@ -3895,7 +3895,7 @@ app-home .filter-pro-block .pro-detail-btn {
 	font-weight: 500;
 	color: #2a4153;
 	display: inline;
-
+	margin-right: 8px;
 }
 
 .pd-inner-price s {
@@ -3903,17 +3903,17 @@ app-home .filter-pro-block .pro-detail-btn {
 	font-weight: 300;
 	font-size: 26px;
 	display: inline-block;
-
+	margin-right: 8px;
 }
 
 .pd-inner-price span {
 	color: #ea8d72;
 	line-height: normal;
 	font-size: 26px;
-	font-weight: 400;
+	font-weight: 600;
 	line-height: 40px;
 	display: inline-block;
-	
+
 
 }
 
@@ -3922,20 +3922,25 @@ app-home .filter-pro-block .pro-detail-btn {
 	margin-top: -8px;
 }
 
-.listing-content-price .pd-inner-price h3,
-.listing-content-price .pd-inner-price b {
+.listing-content-price .pd-inner-price h3 {
 	font-size: 18px;
+	margin-right: 0px;
 	display: inline !important;
 }
 
 .listing-content-price .pd-inner-price s,
 .listing-content-price .pd-inner-price span {
 	font-size: 14px;
+	margin-right: 0px;
 
 }
 
 .listing-content-price .pd-inner-price s {
 	margin-top: 10px;
+}
+
+.listing-content-price .pd-inner-price span {
+	font-weight: 400;
 }
 
 /* bishal classes end */

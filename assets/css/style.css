@@ -3886,7 +3886,6 @@ app-home .filter-pro-block .pro-detail-btn {
 /* bishal classes start */
 .pd-inner-price {
 	display: flex;
-	/* align-items: center; */
 	font-family: 'Gotham';
 }
 
@@ -3895,6 +3894,7 @@ app-home .filter-pro-block .pro-detail-btn {
 	line-height: 40px;
 	font-weight: 500;
 	color: #2a4153;
+	display: inline;
 	margin-right: 8px;
 }
 
@@ -3902,9 +3902,8 @@ app-home .filter-pro-block .pro-detail-btn {
 	color: #9aa5ad;
 	font-weight: 300;
 	font-size: 26px;
-	margin-right: 8px;
 	display: inline-block;
-
+	margin-right: 8px;
 }
 
 .pd-inner-price span {
@@ -3914,20 +3913,36 @@ app-home .filter-pro-block .pro-detail-btn {
 	font-weight: 600;
 	line-height: 40px;
 	display: inline-block;
+
+
 }
 
-.listing-content-price .pd-inner-price  h3{
+.listing-content-price .pd-inner-price {
+	display: block !important;
+	margin-top: -8px;
+}
+
+.listing-content-price .pd-inner-price h3 {
 	font-size: 18px;
-
+	margin-right: 0px;
+	display: inline !important;
 }
-.listing-content-price .pd-inner-price  s,
-.listing-content-price .pd-inner-price  span {
+
+.listing-content-price .pd-inner-price s,
+.listing-content-price .pd-inner-price span {
 	font-size: 14px;
+	margin-right: 0px;
 
 }
-.listing-content-price .pd-inner-price  s{
+
+.listing-content-price .pd-inner-price s {
 	margin-top: 10px;
 }
+
+.listing-content-price .pd-inner-price span {
+	font-weight: 400;
+}
+
 /* bishal classes end */
 
 .txt_all_tax {

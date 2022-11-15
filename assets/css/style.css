@@ -3916,6 +3916,18 @@ app-home .filter-pro-block .pro-detail-btn {
 	display: inline-block;
 }
 
+.listing-content-price .pd-inner-price  h3{
+	font-size: 18px;
+
+}
+.listing-content-price .pd-inner-price  s,
+.listing-content-price .pd-inner-price  span {
+	font-size: 14px;
+
+}
+.listing-content-price .pd-inner-price  s{
+	margin-top: 10px;
+}
 /* bishal classes end */
 
 .txt_all_tax {
@@ -4318,9 +4330,9 @@ app-home .filter-pro-block .pro-detail-btn {
 	margin-bottom: 5px;
 }
 
-.similar_pro_box .content-firstblock span {
+/* .similar_pro_box .content-firstblock span {
 	font-size: 0.7vw;
-}
+} */
 
 .similar_pro_box .list-hoverleft h3,
 .similar_pro_box .content-info-box strong {

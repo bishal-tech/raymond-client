@@ -8034,3 +8034,55 @@ app-view-order .product-brief .content-wrapper.right .btn-wrapper .btn-custom {
   } */
 /*----------------------------------------------------------*/
 /*------------ Sourav Biswas -------------------------------*/
+
+
+
+/* Bishal Debsharma style is here  */
+
+.filter-area .in-input-box {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.filter-area .in-input-box input {
+	font-size: 14px;
+	width: 75px;
+	padding: 4px;
+}
+
+.choose-color-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 8px;
+}
+
+.color-btn-bx {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin: 4px;
+	background-color: #000;
+
+}
+
+.size {
+	width: 37px;
+	height: 34px;
+	border-radius: 10px;
+	font-size: 12px;
+	border: 2px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
+.love-btn {
+	width: 60px;
+	height: 50px;
+	border-radius: 10px;
+	margin-right: 3%;
+	background-color: #2a4153;
+}
